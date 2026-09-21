@@ -1,0 +1,40 @@
+[2.516s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts']
+[2.517s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f9697a68940>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f9697a68940>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f969795cf70>)
+[4.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.804s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts'
+[4.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extensions ['ignore', 'ignore_ament_install']
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'ignore'
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'ignore_ament_install'
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extensions ['colcon_pkg']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'colcon_pkg'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extensions ['colcon_meta']
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'colcon_meta'
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extensions ['ros']
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'ros'
+[5.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extensions ['cmake', 'python']
+[5.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'cmake'
+[5.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'python'
+[5.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extensions ['python_setup_py']
+[5.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts) by extension 'python_setup_py'
+[5.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'ignore'
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'ignore_ament_install'
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extensions ['colcon_pkg']
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'colcon_pkg'
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extensions ['colcon_meta']
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'colcon_meta'
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extensions ['ros']
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'ros'
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extensions ['cmake', 'python']
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'cmake'
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'python'
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extensions ['python_setup_py']
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/__pycache__) by extension 'python_setup_py'
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/log) by extensions ['ignore', 'ignore_ament_install']
+[5.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/log) by extension 'ignore'
+[5.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ecn/ros2_amoro/src/lab_amoro-master/lab_amoro-master/student_scripts/log) ignored
+[5.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
